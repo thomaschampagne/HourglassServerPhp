@@ -1,0 +1,31 @@
+{
+	"name" : "thomaschampagne/hourglass-server",
+	"description" : "Provides REST JSON API able to synchronize files toward many clients to reach 'the' latest server revision",
+	"authors" : [{
+			"name" : "Thomas Champagne",
+			"email" : "th.champagne@gmail.com",
+			"homepage" : "http://thomaschampagne.github.io",
+			"role" : "Developper"
+		}
+	],
+	"homepage" : "https://github.com/thomaschampagne/HourglassServer",
+	"require" : {
+		"phpunit/phpunit" : "4.1.*",
+		"apache/log4php" : "2.3.*",
+		"php" : ">=5.3.0"
+	},
+	"autoload" : {
+		"classmap" : [
+			"src/Hourglass/Managers/",
+			"src/Hourglass/Model/",
+			"src/Tests/"
+		]
+	},
+	"minimum-stability" : "stable",
+	"support" : {
+		"source" : "https://github.com/thomaschampagne/HourglassServer",
+		"email" : "th.champagne@gmail.com",
+		"issues" : "https://github.com/thomaschampagne/HourglassServer/issues",
+		"wiki" : "https://github.com/thomaschampagne/HourglassServer/wiki"
+	}
+}

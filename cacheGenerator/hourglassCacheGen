@@ -1,0 +1,5 @@
+# Place this file into your linux cron trigger system to generate Hourglass cached archives and system hash fingerprints for files versionned
+# Edit the file endpoint/cacheGen.php to add/edit/remove your own requests to be cached
+
+# This example below will generate cache each hour when the minute <30> will pop.
+30 * * * * wget http://localhost/hourglass/endpoint/cacheGen.php -qO /dev/null

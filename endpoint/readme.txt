@@ -1,0 +1,12 @@
+{"method":"checkout","params":{"simulateArchive":true},"test":true}
+{"method":"checkout","test":true}
+{"method":"pullFromRevision","params":{"revision":4,"simulateArchive":true},"test":true}
+{"method":"pullFromRevision","params":{"revision":4},"test":true}
+{"method":"getRevNumber","test":true}
+{"method":"countCurrentFiles","test":true}
+{"method":"countVersionnedFiles","test":true}
+{"method":"checkout","params":{"simulateArchive":true,"filterWithRegex":"fr\/"},"test":true}
+{"method":"checkout","params":{"simulateArchive":true,"filterWithoutRegex":"fr\/"},"test":true}
+{"method":"checkout","params":{"simulateArchive":true,"filterWithRegex":"fr\/","filterWithoutRegex":".jpg"},"test":true}
+{"method":"checkout","params":{"simulateArchive":true,"filterWithRegex":"45\/fr\/","filterWithoutRegex":".jpg"},"test":true}
+{"method":"pullFromRevision","params":{"revision":4,"filterWithRegex":"fr\/"},"test":true}

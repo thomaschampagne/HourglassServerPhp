@@ -1,0 +1,10 @@
+.settings/
+.buildpath
+.project
+history.json
+res/main/content/*
+res/test/content/*
+logs/*
+tmp/*.zip
+vendor/
+composer.lock
